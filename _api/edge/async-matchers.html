@@ -801,6 +801,148 @@ return expectAsync(aPromise).toBeRejectedWithError(/Error message/);</code></pre
     
 
     
+    <h4 class="name" id="toBeRejectedWithMatching"><span class="type-signature">(async) </span>toBeRejectedWithMatching<span class="signature">(predicate)</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    <p>Expect a promise to be rejected with a value matching a predicate.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>predicate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>A function that takes the rejected promise value as its parameter and returns true if it matches.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>6.2.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>await expectAsync(aPromise).toBeRejectedWithMatching((error) => error.message === 'Some error');</code></pre>
+
+    <pre class="prettyprint"><code>return expectAsync(aPromise).toBeRejectedWithMatching((error) => error.message === 'Some error');</code></pre>
+
+
+
+        
+            
+
+    
+
+    
     <h4 class="name" id="toBeResolved"><span class="type-signature">(async) </span>toBeResolved<span class="signature">()</span><span class="type-signature"></span></h4>
     
 
