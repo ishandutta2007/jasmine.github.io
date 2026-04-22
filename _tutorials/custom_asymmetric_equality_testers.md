@@ -6,8 +6,8 @@ redirect_from: /tutorials/custom_argument_matchers
 # Custom Asymmetric Equality Testers
 
 Jasmine provides a number of asymmetric equality testers out of the box, such
-as [`jasmine.any()`](/api/edge/jasmine.html#.any) and
-[`jasmine.objectContaining()`](/api/edge/jasmine.html#.objectContaining).
+as [`jasmine.any()`](/api/edge/asymmetricEqualityTesters.html#.jasmine.any) and
+[`jasmine.objectContaining()`](/api/edge/asymmetricEqualityTesters.html#.jasmine.objectContaining).
 When it's helpful, you can create your own custom asymmetric equality testers
 to encapsulate testing logic.
 

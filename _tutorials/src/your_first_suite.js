@@ -463,7 +463,7 @@ describe("Multiple spies, when created manually", function() {
  */
 describe("Matching with finesse", function() {
     /**
-     [jasmine.any](/api/edge/jasmine.html#.any) takes a constructor or "class"
+     [jasmine.any](/api/edge/asymmetricEqualityTesters.html#.jasmine.any) takes a constructor or "class"
      name as an expected value. It returns `true` if the constructor matches the
      constructor of the actual value.
      */
@@ -488,7 +488,7 @@ describe("Matching with finesse", function() {
     });
 
     /**
-     [jasmine.anything](/api/edge/global.html#.anything) returns `true` if the
+     [jasmine.anything](/api/edge/asymmetricEqualityTesters.html#.jasmine.anything) returns `true` if the
      actual value is not `null` or `undefined`.
      */
     describe("jasmine.anything", function () {
@@ -509,7 +509,7 @@ describe("Matching with finesse", function() {
     });
 
     /**
-     [jasmine.objectContaining](/api/edge/global.html#.objectContaining) is for
+     [jasmine.objectContaining](/api/edge/asymmetricEqualityTesters.html#.jasmine.objectContaining) is for
      those times when an expectation only cares about certain key/value pairs
      in the actual.
      */
@@ -549,7 +549,7 @@ describe("Matching with finesse", function() {
     });
 
     /**
-     [jasmine.arrayContaining](/api/edge/global.html#.arrayContaining is for
+     [jasmine.arrayContaining](/api/edge/asymmetricEqualityTesters.html#.jasmine.arrayContaining) is for
      those times when an expectation only cares about some of the values in an
      array.
      */
@@ -582,7 +582,7 @@ describe("Matching with finesse", function() {
     });
 
     /**
-     ### [jasmine.stringMatching](/api/edge/global.html#.stringMatching) is for
+     [jasmine.stringMatching](/api/edge/asymmetricEqualityTesters.html#.jasmine.stringMatching) is for
      when you don't want to match a string in a larger object exactly, or match
      a portion of a string in a spy expectation.
      */

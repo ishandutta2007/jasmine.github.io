@@ -787,13 +787,13 @@ number of asymmetric equality testers.</p>
       {% highlight javascript %}describe("Matching with finesse", function() { {% endhighlight %}
     </td>
   </tr>
-  <tr id="section-jasmineanyapiedgejasminehtmlany_takes_a_constructor_or_class">
+  <tr id="section-jasmineanyapiedgeasymmetricEqualityTestershtmljasmineany_takes_a_constructor_or_class">
     <td class="docs">
       <div class="pilwrap">
-        <a class="pilcrow" href="#section-jasmineanyapiedgejasminehtmlany_takes_a_constructor_or_class">&#182;</a>
+        <a class="pilcrow" href="#section-jasmineanyapiedgeasymmetricEqualityTestershtmljasmineany_takes_a_constructor_or_class">&#182;</a>
       </div>
       <div>
-        <p><a href="/api/edge/jasmine.html#.any">jasmine.any</a> takes a constructor or &quot;class&quot;
+        <p><a href="/api/edge/asymmetricEqualityTesters.html#.jasmine.any">jasmine.any</a> takes a constructor or &quot;class&quot;
 name as an expected value. It returns <code>true</code> if the constructor matches the
 constructor of the actual value.</p>
 
@@ -822,13 +822,13 @@ constructor of the actual value.</p>
  {% endhighlight %}
     </td>
   </tr>
-  <tr id="section-jasmineanythingapiedgeglobalhtmlanything_returns_true_if_the">
+  <tr id="section-jasmineanythingapiedgeasymmetricEqualityTestershtmljasmineanything_returns_true_if_the">
     <td class="docs">
       <div class="pilwrap">
-        <a class="pilcrow" href="#section-jasmineanythingapiedgeglobalhtmlanything_returns_true_if_the">&#182;</a>
+        <a class="pilcrow" href="#section-jasmineanythingapiedgeasymmetricEqualityTestershtmljasmineanything_returns_true_if_the">&#182;</a>
       </div>
       <div>
-        <p><a href="/api/edge/global.html#.anything">jasmine.anything</a> returns <code>true</code> if the
+        <p><a href="/api/edge/asymmetricEqualityTesters.html#.jasmine.anything">jasmine.anything</a> returns <code>true</code> if the
 actual value is not <code>null</code> or <code>undefined</code>.</p>
 
       </div>
@@ -853,13 +853,13 @@ actual value is not <code>null</code> or <code>undefined</code>.</p>
  {% endhighlight %}
     </td>
   </tr>
-  <tr id="section-jasmineobjectContainingapiedgeglobalhtmlobjectContaining_is_for">
+  <tr id="section-jasmineobjectContainingapiedgeasymmetricEqualityTestershtmljasmineobjectContaining_is_for">
     <td class="docs">
       <div class="pilwrap">
-        <a class="pilcrow" href="#section-jasmineobjectContainingapiedgeglobalhtmlobjectContaining_is_for">&#182;</a>
+        <a class="pilcrow" href="#section-jasmineobjectContainingapiedgeasymmetricEqualityTestershtmljasmineobjectContaining_is_for">&#182;</a>
       </div>
       <div>
-        <p><a href="/api/edge/global.html#.objectContaining">jasmine.objectContaining</a> is for
+        <p><a href="/api/edge/asymmetricEqualityTesters.html#.jasmine.objectContaining">jasmine.objectContaining</a> is for
 those times when an expectation only cares about certain key/value pairs
 in the actual.</p>
 
@@ -903,13 +903,13 @@ in the actual.</p>
  {% endhighlight %}
     </td>
   </tr>
-  <tr id="section-jasminearrayContainingapiedgeglobalhtmlarrayContaining_is_for">
+  <tr id="section-jasminearrayContainingapiedgeasymmetricEqualityTestershtmljasminearrayContaining_is_for">
     <td class="docs">
       <div class="pilwrap">
-        <a class="pilcrow" href="#section-jasminearrayContainingapiedgeglobalhtmlarrayContaining_is_for">&#182;</a>
+        <a class="pilcrow" href="#section-jasminearrayContainingapiedgeasymmetricEqualityTestershtmljasminearrayContaining_is_for">&#182;</a>
       </div>
       <div>
-        <p><a href="/api/edge/global.html#.arrayContaining">jasmine.arrayContaining</a> is for
+        <p><a href="/api/edge/asymmetricEqualityTesters.html#.jasmine.arrayContaining">jasmine.arrayContaining</a> is for
 those times when an expectation only cares about some of the values in an
 array.</p>
 
@@ -946,14 +946,14 @@ array.</p>
  {% endhighlight %}
     </td>
   </tr>
-  <tr id="section-jasminestringMatchingapiedgeglobalhtmlstringMatching_is_for">
+  <tr id="section-jasminestringMatchingapiedgeasymmetricEqualityTestershtmljasminestringMatching_is_for">
     <td class="docs">
       <div class="pilwrap">
-        <a class="pilcrow" href="#section-jasminestringMatchingapiedgeglobalhtmlstringMatching_is_for">&#182;</a>
+        <a class="pilcrow" href="#section-jasminestringMatchingapiedgeasymmetricEqualityTestershtmljasminestringMatching_is_for">&#182;</a>
       </div>
       <div>
-        <h3><a href="/api/edge/global.html#.stringMatching">jasmine.stringMatching</a> is for</h3>
-<p>when you don&#39;t want to match a string in a larger object exactly, or match
+        <p><a href="/api/edge/asymmetricEqualityTesters.html#.jasmine.stringMatching">jasmine.stringMatching</a> is for
+when you don&#39;t want to match a string in a larger object exactly, or match
 a portion of a string in a spy expectation.</p>
 
       </div>
