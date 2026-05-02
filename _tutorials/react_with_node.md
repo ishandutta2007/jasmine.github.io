@@ -24,7 +24,7 @@ to provide a fake HTML DOM for the specs.
 A [complete working example](https://github.com/jasmine/jasmine.github.io/tree/master/examples/react-in-node)
 of this setup is also available.
 
-Choose the package managment tool you'll be using:
+Choose the package management tool you'll be using:
 
 <label>
 	<input type="radio" name="mgr" value="npm" checked>

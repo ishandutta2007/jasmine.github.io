@@ -1,0 +1,15 @@
+{
+  "name": "node-strip-types-demo",
+  "version": "0.1.0",
+  "description": "Demo of testing TypeScript using Node's strip types feature",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine",
+    "testNode22": "node --experimental-strip-types ./node_modules/.bin/jasmine"
+  },
+  "author": "Stephen Gravrock",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^6.2.0"
+  }
+}
