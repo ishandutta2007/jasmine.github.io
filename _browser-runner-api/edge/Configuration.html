@@ -105,82 +105,6 @@ the argument to runSpecs.</p></div>
 
         
             
-<h4 class="name" id="alwaysListPendingSpecs"><span class="type-signature"></span>alwaysListPendingSpecs<span class="type-signature"> :boolean|undefined</span></h4>
-
-
-
-
-<div class="description">
-    <p>Whether the default reporter should list pending specs even if there are
-failures.</p>
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">boolean</span>
-|
-
-<span class="param-type">undefined</span>
-
-
-        </li>
-    </ul>
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-default">Default Value:</dt>
-    <dd class="tag-default"><ul class="dummy">
-            <li>true</li>
-        </ul></dd>
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-        
-            
 <h4 class="name" id="browser"><span class="type-signature"></span>browser<span class="type-signature"> :string|<a href="BrowserInfo.html">BrowserInfo</a>|undefined</span></h4>
 
 
@@ -254,13 +178,15 @@ failures.</p>
 
         
             
-<h4 class="name" id="color"><span class="type-signature"></span>color<span class="type-signature"> :boolean|undefined</span></h4>
+<h4 class="name" id="consoleReporter"><span class="type-signature"></span>consoleReporter<span class="type-signature"> :object|undefined</span></h4>
 
 
 
 
 <div class="description">
-    <p>Whether to use color in the console output.</p>
+    <p>Configuration for the built-in <code>ConsoleReporter</code>. See the
+ConsoleReporterOptions type in the @jasminejs/reporters API reference
+documentation.</p>
 </div>
 
 
@@ -269,7 +195,7 @@ failures.</p>
     <ul>
         <li>
             
-<span class="param-type">boolean</span>
+<span class="param-type">object</span>
 |
 
 <span class="param-type">undefined</span>
@@ -309,7 +235,7 @@ failures.</p>
     
     <dt class="tag-default">Default Value:</dt>
     <dd class="tag-default"><ul class="dummy">
-            <li>true</li>
+            <li>undefined</li>
         </ul></dd>
     
 

@@ -91,14 +91,14 @@ prettify: true
 
         
             
-<h4 class="name" id="alwaysListPendingSpecs"><span class="type-signature"></span>alwaysListPendingSpecs<span class="type-signature"> :boolean|undefined</span></h4>
+<h4 class="name" id="defaultReporter"><span class="type-signature"></span>defaultReporter<span class="type-signature"> :object|undefined</span></h4>
 
 
 
 
 <div class="description">
-    <p>Whether the default reporter should list pending specs even if there are
-failures.</p>
+    <p>Configuration for the default console reporter. See the documentation for
+the @jasminejs/reporters package for details.</p>
 </div>
 
 
@@ -107,7 +107,7 @@ failures.</p>
     <ul>
         <li>
             
-<span class="param-type">boolean</span>
+<span class="param-type">object</span>
 |
 
 <span class="param-type">undefined</span>
@@ -144,11 +144,6 @@ failures.</p>
 
     
 
-    
-    <dt class="tag-default">Default Value:</dt>
-    <dd class="tag-default"><ul class="dummy">
-            <li>true</li>
-        </ul></dd>
     
 
     
@@ -532,6 +527,82 @@ the spec directory. Helpers are loaded before specs.</p>
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="listNotApplicableSpecs"><span class="type-signature"></span>listNotApplicableSpecs<span class="type-signature"> :boolean|undefined</span></h4>
+
+
+
+
+<div class="description">
+    <p>Whether the default reporter should list specs that are marked not
+applicable rather than merely summarizing them.</p>
+</div>
+
+
+
+    <h5>Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+|
+
+<span class="param-type">undefined</span>
+
+
+        </li>
+    </ul>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>false</li>
+        </ul></dd>
     
 
     
