@@ -92,10 +92,9 @@ Helpers are executed once before all specs. For an example of some helpers see t
 }
 ```
 
-TODO update this too
 You can also specify a different config file by using either the `--config`
 command line argument or the `JASMINE_CONFIG_PATH` environment variable, as
-follows. Config files may be either `.json` or `.js`. A `.js` config file
+follows. Config files may be `.mjs`, `.js`. or `.json` An `mjs` or `.js` config file
 should be a module whose default export is a configuration object.
 
 ```sh
