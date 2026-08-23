@@ -106,18 +106,18 @@ By default, Jasmine runs specs in random order. This is to help catch specs that
 accidentally affect each other's behavior, causing the suite to only pass if the
 specs are run in a particular order. Disabling randomization is not recommended,
 but you can do it if you want by adding 
-[`random: false`](/api/edge/Configuration.html#random)
+[`random: false`]({{ "/api/edge/Configuration.html#random" | to_latest_api_version }})
 to your jasmine-core configuration.
 
 To reproduce a randomization-related failure, you can re-run Jasmine with the
 random seed that was reported by the failing run. The most convenient way to
 do that is by passing the seed flag to the `jasmine` or `jasmine-browser-runner`
 command, e.g `jasmine --seed=12345`. Or you can add the
-[`seed`](/api/edge/Configuration.html#seed)
+[`seed`]({{ "/api/edge/Configuration.html#seed" | to_latest_api_version }})
 property to your jasmine-core configuration.
 
 ### Complete configuration reference
 
-* [jasmine-core](/api/edge/Configuration.html)
-* [jasmine](/api/npm/edge/Configuration.html)
-* [jasmine-browser-runner](/api/browser-runner/edge/Configuration.html)
+* [jasmine-core]({{ "/api/edge/Configuration.html" | to_latest_api_version }})
+* [jasmine]({{ "/api/npm/edge/Configuration.html" | to_latest_api_version }})
+* [jasmine-browser-runner]({{ "/api/browser-runner/edge/Configuration.html" | to_latest_api_version }})
