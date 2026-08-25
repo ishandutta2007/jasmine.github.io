@@ -49,7 +49,7 @@ At this point you should be able to [write your first suite](/tutorials/your_fir
 
 ## Configuration
 
-Customize `spec/support/jasmine.json` to enumerate the source files and spec files you would like the
+Customize `spec/support/jasmine.mjs` to enumerate the source files and spec files you would like the
 Jasmine runner to include. You may use dir glob strings.
 
 Paths starting with `!` are excluded, for example `!**/*nospec.js`.
@@ -94,17 +94,17 @@ Helpers are executed once before all specs. For an example of some helpers see t
 
 You can also specify a different config file by using either the `--config`
 command line argument or the `JASMINE_CONFIG_PATH` environment variable, as
-follows. Config files may be either `.json` or `.js`. A `.js` config file
+follows. Config files may be `.mjs`, `.js`. or `.json` An `mjs` or `.js` config file
 should be a module whose default export is a configuration object.
 
 ```sh
-jasmine JASMINE_CONFIG_PATH=relative/path/to/your/jasmine.json
-jasmine --config=relative/path/to/your/jasmine.json
+jasmine JASMINE_CONFIG_PATH=relative/path/to/your/jasmine.mjs
+jasmine --config=relative/path/to/your/jasmine.mjs
 ```
 
 ## Running Specs
 
-Once you have set up your `jasmine.json`, you can execute all your specs by running `jasmine` from the root of your project (or `npx jasmine` if you had installed it locally).
+Once you have set up your `jasmine.mjs`, you can execute all your specs by running `jasmine` from the root of your project (or `npx jasmine` if you had installed it locally).
 
 If you want to just run one spec or only those in files that match a certain [glob](https://github.com/isaacs/node-glob) pattern you can do it like this:
 
@@ -160,9 +160,9 @@ Files with names ending in `.mjs` will be loaded via dynamic import even if
 Specify a relative or absolute path to your configuration file. Can be used as an option or set as an environment variable.
 
 ```sh
-JASMINE_CONFIG_PATH=spec/config/jasmine.json jasmine
+JASMINE_CONFIG_PATH=spec/config/jasmine.mjs jasmine
 
-npx jasmine --config=spec/config/jasmine.json
+npx jasmine --config=spec/config/jasmine.mjs
 ```
 
 #### `--no-color`
@@ -187,7 +187,7 @@ npx jasmine --fail-fast=true
 ```
 
 #### `--random=[true|false]`
-Tells jasmine to run specs in semi random order or not for this run, overriding `jasmine.json`
+Tells jasmine to run specs in semi random order or not for this run, overriding `jasmine.mjs`
 
 ```sh
 npx jasmine --random=true
